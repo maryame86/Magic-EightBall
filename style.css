@@ -1,0 +1,535 @@
+/* Copied stylesheet from sass folder */
+
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri&display=swap");
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(#ceafe0, #8a2be2, #800080);
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .container {
+    max-width: 1025px;
+  }
+}
+
+.container .sidebar {
+  border: white 1px solid;
+  z-index: 0;
+  height: 100vh;
+  width: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bd21bd), to(#4d054d));
+  background: linear-gradient(to bottom, #bd21bd, #4d054d);
+  font-family: "El Messiri", sans-serif;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+@media only screen and (max-width: 480px) {
+  .container .sidebar {
+    width: 100vw;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .container .sidebar {
+    width: 100vw;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+  }
+}
+
+.container .sidebar .question {
+  text-align: center;
+  border: white 2px solid;
+  margin: 5%;
+  color: transparent;
+  visibility: hidden;
+  -webkit-transition: 0.6s ease-in;
+  transition: 0.6s ease-in;
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+@media only screen and (max-width: 480px) {
+  .container .sidebar .question {
+    height: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+    margin: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .container .sidebar .question {
+    margin: 1.5%;
+  }
+}
+
+.container .sidebar .question .q {
+  font-size: 1.1rem;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .container .sidebar .question .q {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .container .sidebar .question .q {
+    font-size: 3vw;
+    padding: 5px;
+  }
+}
+
+.container .sidebar .question button {
+  display: block;
+  margin: 10% auto;
+  background-color: transparent;
+  border: #ffffff 2px solid;
+  color: #f5f5f5;
+  padding: 1% 8% 1% 8%;
+  font-size: 1.5rem;
+  font-family: "El Messiri", sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  .container .sidebar .question button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0 1% 0 1%;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .container .sidebar .question button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 3vw;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    margin: 5px auto;
+  }
+}
+
+.sidebar h2 {
+  font-size: 2rem;
+  text-shadow: 0 0 2px #fff, 0 0 1px #e680b3, 0 0 2px #e680b3, 0 0 3px #e680b3, 0 0 4px #e680b3, 0 0 5px #e680b3;
+}
+
+@media only screen and (max-width: 480px) {
+  .sidebar h2 {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .sidebar h2 {
+    font-size: 5vw;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+.sidebar textarea {
+  font-family: "El Messiri", sans-serif;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .sidebar textarea {
+    height: 12vh;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .sidebar textarea {
+    font-size: 3vw;
+    height: 12vh;
+    width: 75vw;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+.eightball {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  z-index: 0;
+  float: left;
+}
+
+@media only screen and (max-width: 480px) {
+  .eightball {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-top: 170px;
+    height: 300px;
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .eightball {
+    margin-top: 250px;
+  }
+}
+
+.eightball img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 40vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .eightball img {
+    min-width: 320px;
+    margin: 0 auto;
+    top: 40vh;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .eightball img {
+    width: 60vw;
+  }
+}
+
+.eightball .answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  height: 25%;
+  width: 12%;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+  .eightball .answer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 27%;
+    height: 13%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .eightball .answer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 19%;
+    height: 13%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
+
+.eightball .answer .ans {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 5px;
+  font-family: "El Messiri", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 0 0 2px #fff, 0 0 1px #e680b3, 0 0 2px #e680b3, 0 0 3px #e680b3, 0 0 4px #e680b3, 0 0 5px #e680b3;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .eightball .answer .ans {
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 125px;
+    height: 125px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .eightball .answer .ans {
+    font-size: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 125px;
+    height: 125px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.eightball .eight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 16.5%;
+  z-index: 2;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eee8e8;
+  z-index: 2;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 13.5rem;
+  font-size: 14vw;
+  font-weight: bolder;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 480px) {
+  .eightball .eight {
+    font-size: 7.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 130px;
+    height: 130px;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .eightball .eight {
+    font-size: 22vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 25vw;
+    height: auto;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
+
+.eightball .start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  z-index: 4;
+  margin: 0 auto;
+  padding: 3px 20px 3px 20px;
+  font-family: "El Messiri", sans-serif;
+  font-size: 1.3rem;
+  background-color: rgba(2, 2, 2, 0.7);
+  color: #f5f5f5;
+  visibility: visible;
+  border: #0000006b 1px solid;
+  border-radius: 3%;
+}
+
+@media only screen and (max-width: 480px) {
+  .eightball .start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .eightball .start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 10vw;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+  }
+}
+
+.eightball .start:hover {
+  background-color: white;
+  color: #26032b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(255, 247, 247, 0.4), 0 6px 10 px 0 rgba(255, 255, 255, 0.3);
+          box-shadow: 0 4px 8px 0 rgba(255, 247, 247, 0.4), 0 6px 10 px 0 rgba(255, 255, 255, 0.3);
+}
+
+.magic {
+  width: 100vw;
+  margin: 0 auto;
+  height: 30vh;
+  z-index: 3;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  color: white;
+  text-align: center;
+  font-family: "El Messiri", sans-serif;
+  font-size: 9.5rem;
+  font-weight: bold;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  text-shadow: 0 0 10px #fff, 0 0 7px #e680b3, 0 0 10px #e680b3, 0 0 12px #e680b3, 0 0 15px #e680b3, 0 0 17px #e680b3, 0 0 20px #e680b3;
+}
+
+@media only screen and (max-width: 480px) {
+  .magic {
+    font-size: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 160px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .magic {
+    font-size: 20vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 250px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin: 0 auto;
+  }
+}
+
+.ball {
+  width: 100vw;
+  margin: 0 auto;
+  height: 30vh;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 70vh;
+  color: white;
+  font-family: "El Messiri", sans-serif;
+  text-shadow: 0 0 10px #fff, 0 0 7px #e680b3, 0 0 10px #e680b3, 0 0 12px #e680b3, 0 0 15px #e680b3, 0 0 17px #e680b3, 0 0 20px #e680b3;
+  font-size: 9rem;
+  font-weight: bold;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+@media only screen and (max-width: 480px) {
+  .ball {
+    font-size: 5.5rem;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 481px) {
+  .ball {
+    font-size: 20vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
