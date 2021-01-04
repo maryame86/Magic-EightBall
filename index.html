@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sass/style.css">
+    <link rel="icon" href="/favicon-16x16.png" type="image/gif" sizes="16x16">
+    <title>Magic EightBall</title>
+</head>
+<body>
+   <div class="container">
+
+       <div class="magic">Magic</div>
+    <div class="eightball">
+        <button class="start" onclick="startGame();">Start</button>
+        <div class="eight">8</div>
+        <div class="answer"><p class="ans">What would you like to ask</p></div>
+        <img src="/magic8ball.svg">
+   </div> 
+
+   <div class="sidebar">
+    <div class="question">
+        <h2>Magic EightBall</h2>
+        <h4 class="q">What would you like to ask?</h4>
+        
+    <form id="form">
+        <textarea cols="30" rows="6" placeholder="Type your question here...." 
+        required onkeypress="askQuestion();"></textarea>
+    </form>  
+        <button class="ask" onclick="giveAnswer(event);">Ask!</button>
+        <button class="again" type="reset" onclick="tryAgain();">Restart</button>
+        <button class="reset" onclick="reset();">Home</button>
+   </div>
+   </div>
+
+    <div class="ball">EightBall</div>
+
+    <footer></footer>
+
+    <script defer src="main.js"></script>
+</body>
+</html>

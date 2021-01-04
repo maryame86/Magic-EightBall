@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 514.875 502.99111"
+   version="1.0"
+   sodipodi:docname="magic8ball.svg"
+   width="514.875"
+   height="502.99112"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview35"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.2622222"
+     inkscape:cx="366.74067"
+     inkscape:cy="325.34199"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3471"
+       y2="812.35999"
+       gradientUnits="userSpaceOnUse"
+       y1="815.20001"
+       x2="-317.10999"
+       x1="-38.745998">
+      <stop
+         id="stop3467"
+         offset="0" />
+      <stop
+         id="stop3469"
+         stop-opacity="0"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       id="radialGradient3358"
+       gradientUnits="userSpaceOnUse"
+       cy="321.69"
+       cx="282.54999"
+       gradientTransform="matrix(-3.1819e-7,0.44499,0.80315,0,86.897,538.69)"
+       r="152.86">
+      <stop
+         id="stop3157"
+         stop-color="#fff"
+         stop-opacity=".44828"
+         offset="0" />
+      <stop
+         id="stop3159"
+         stop-color="#fff"
+         stop-opacity="0"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="radialGradient3360"
+       gradientUnits="userSpaceOnUse"
+       cy="513.83002"
+       cx="453.51999"
+       gradientTransform="matrix(0.71723,-0.71723,0.87074,0.87074,-366.27,379.5)"
+       r="152.86">
+      <stop
+         id="stop3207"
+         stop-color="#909090"
+         offset="0" />
+      <stop
+         id="stop3209"
+         offset="1" />
+    </radialGradient>
+    <clipPath
+       id="clipPath3412">
+      <path
+         id="path3414"
+         d="m 484.29,588.08 a 152.86,152.86 0 1 1 -305.72,0 152.86,152.86 0 1 1 305.72,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient3360)" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient3464"
+       x1="342.01001"
+       gradientUnits="userSpaceOnUse"
+       y1="36.558998"
+       gradientTransform="translate(68.386,436.1)"
+       x2="311.13"
+       y2="82.431999">
+      <stop
+         id="stop3191"
+         stop-color="#fff"
+         stop-opacity=".53879"
+         offset="0" />
+      <stop
+         id="stop3193"
+         stop-color="#fff"
+         stop-opacity="0"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       id="radialGradient3466"
+       gradientUnits="userSpaceOnUse"
+       cy="556.60999"
+       cx="-174.35001"
+       gradientTransform="matrix(0.013349,1.4275,-1.4166,0.013247,648.56,822.32)"
+       r="69.435997">
+      <stop
+         id="stop3199"
+         stop-color="#fff"
+         offset="0" />
+      <stop
+         id="stop3201"
+         stop-color="#afafaf"
+         offset="1" />
+    </radialGradient>
+    <filter
+       id="filter3472">
+      <feGaussianBlur
+         id="feGaussianBlur3474"
+         stdDeviation="9.1714288" />
+    </filter>
+    <filter
+       id="filter3215"
+       y="-0.16742"
+       width="1.0671"
+       height="1.3348"
+       x="-0.033573002">
+      <feGaussianBlur
+         id="feGaussianBlur3217"
+         stdDeviation="5.5223797" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radialGradient3360"
+       id="radialGradient878"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.71723,-0.71723,0.87074,0.87074,-366.27,379.5)"
+       cx="453.51999"
+       cy="513.83002"
+       r="152.86" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(17.584902,-240.94885)">
+    <g
+       id="g849"
+       transform="matrix(1.684139,0,0,1.6452673,-340.21541,-480.04019)">
+      <path
+         transform="translate(13,3)"
+         style="fill:url(#radialGradient878)"
+         inkscape:connector-curvature="0"
+         d="m 484.29,588.08 a 152.86,152.86 0 1 1 -305.72,0 152.86,152.86 0 1 1 305.72,0 z"
+         id="path2383" />
+      <path
+         style="opacity:0.7732;fill:url(#radialGradient3358)"
+         inkscape:connector-curvature="0"
+         d="m 442.38,663.4 c -21.49,18.17 -57,30.05 -97.14,30.05 -39.24,0 -74.05,-11.35 -95.67,-28.83 -0.74,2 -1.41,4.03 -2,6.09 13.51,36.78 51.72,63.33 96.72,63.33 47.34,0 87.19,-29.38 98.66,-69.14 -0.19,-0.51 -0.38,-1 -0.57,-1.5 z"
+         id="path3172" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke:#a9a9a9;stroke-width:0.10052546;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 397.28397,590.52376 a 52.857597,53.414549 0 1 1 -105.71367,0 52.857597,53.414549 0 1 1 105.71367,0 z"
+         id="path3165" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:round;filter:url(#filter3472)"
+         inkscape:connector-curvature="0"
+         transform="translate(13,3)"
+         clip-path="url(#clipPath3412)"
+         d="m 484.29,588.08 a 152.86,152.86 0 1 1 -305.72,0 152.86,152.86 0 1 1 305.72,0 z"
+         id="path3384" />
+      <path
+         style="fill:url(#linearGradient3464);fill-rule:evenodd"
+         inkscape:connector-curvature="0"
+         d="m 350.47,455.94 c 122.38,21.58 133.17,142.96 133.17,142.96 0,0 -34.83,-79.66 -104.13,-80.37 z"
+         id="path3452" />
+      <path
+         style="fill:#000000;stroke:#a9a9a9;stroke-width:0.090006;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 391.55204,590.7158 a 47.581044,47.568996 0 1 1 -95.1607,0 47.581044,47.568996 0 1 1 95.1607,0 z"
+         id="path3165-8"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2008-07-15T07:50:29</dc:date>
+        <dc:description>Tried making it look more glossy</dc:description>
+        <dc:source>http://openclipart.org/detail/17834/8ball-by-lemmling</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>lemmling</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>8ball</rdf:li>
+            <rdf:li>ball</rdf:li>
+            <rdf:li>billiards</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>pool</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>remix</rdf:li>
+            <rdf:li>sport</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
