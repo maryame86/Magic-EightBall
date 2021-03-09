@@ -35,8 +35,8 @@ const startGame = (event) => {
         sideBar.style.width = "25vw";
 
     } else if (window.matchMedia("(max-width: 480px)").matches) {
-        sideBar.style.height = "35vh";
-        document.querySelector('.question').style.height = "30vh"; 
+        sideBar.style.height = "250px";
+        document.querySelector('.question').style.height = "230px"; 
 
     } else if (window.matchMedia("(max-width: 1025px)").matches) {
         sideBar.style.height = "35vh";
